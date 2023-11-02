@@ -60,6 +60,51 @@ main{
     margin-top: 50px;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.serviços{
+    display: flex;
+    flex-direction: column;
+}
+
+.especialidades {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    margin-bottom: 30vh;
+}
+
+.especialidades-box {
+    padding: 0 100px;
+}
+
+.especialidades-box:hover {
+    position: relative;
+    padding: 0 100px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+
+h4 {
+    font-size: 30px;
+    line-height: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+}
+
+h3{ 
+    margin-left: 210px;
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+}
+
 h2{
     font-size: 56px;
     line-height: 10px;
