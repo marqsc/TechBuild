@@ -75,7 +75,7 @@ section{
     display: flex;
     flex-direction: row;
     padding: 0 20px;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
 }
 
 .especialidades-box {
@@ -126,20 +126,20 @@ img{
     width: 580px;
 }
 
-form{
+.formulario{
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
-form [type="submit"]{
+.formulario [type="submit"]{
     height: 50px;
     width: 50%;
     background-color: rgb(14, 27, 201);
     color: white;
     font-weight: bold;
 }
-form [type="submit"]:hover{
+.formulario [type="submit"]:hover{
     cursor: pointer;
 }
 
@@ -150,4 +150,36 @@ input{
     border-radius: 20px;
     border: none;
     font-size: 15px;
+}
+
+
+section.form-contato{
+    margin-left: 330px;
+    margin-bottom: 300px;
+}
+
+.formulario-contato{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.formulario-contato .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario-contato .btn-enviar input{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(14, 27, 201);
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgb(14, 27, 201);;
 }
