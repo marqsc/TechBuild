@@ -9,6 +9,20 @@ body{
     padding: 15px;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateY(-80%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 0.3s;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -80,13 +94,7 @@ section{
 
 .especialidades-box {
     padding: 0 100px;
-}
-
-.especialidades-box:hover {
-    position: relative;
-    padding: 0 100px;
-    border: 2px solid #fff;
-    border-radius: 30px;
+    cursor: pointer;
 }
 
 
@@ -203,7 +211,6 @@ section.form-contato{
   .whatsappLink:hover{
     bottom: 45px;
     box-shadow: 1px 1px 2px #fff;
-    animation: 3ms;
   }
 
   .fa-whatsapp {

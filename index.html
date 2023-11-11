@@ -23,7 +23,7 @@
         </ul>
     </header>
 
-    <main>
+    <main class="hidden">
         <aside>
             <h2><span>Seu computador está</span></h2>
             <h2>com Problemas ?</h2>
@@ -41,8 +41,8 @@
             <img src="Imagens/R$.png">
         </article>
     </main>
-
-    <section id="sobre-nos">
+<div class="hidden">
+    <section id="sobre-nos" class="sobre" >
         <article>
             <img src="Imagens/R$ (2).png">
         </article>
@@ -53,12 +53,13 @@
                 Somos uma empresa dedicada à manutenção e venda de computadores na região de Brumado, Bahia. Com um compromisso sólido com a qualidade e o atendimento excepcional, atendemos também outras regiões, como Livramento de Nossa Senhora e Rio de Contas, entre diversas outras. Contamos com uma equipe qualificada e experiente, pronta para atender às suas necessidades tecnológicas. Seja para resolver problemas ou adquirir equipamentos de última geração, estamos aqui para ajudar. Venha conhecer nossos serviços e produtos, e leve a tecnologia ao próximo nível com a TechBuild!
         </aside>
     </section>
-
+</div>
+    <div class="hidden">
     <section class="serviços" id="Serviços">
         <h3>Quais são os nossos<span> serviços</span> ?</h3>
      </section>
 
-    <section class="especialidades">
+    <section class="especialidades" >
      <div class="especialidades-box" style="width: 400px;">
         <i class="fa-solid fa-clipboard" style="font-size: 60px; margin-left: 150px; color: blue;"></i>
     <h4>Consultoria</h4>
@@ -75,7 +76,9 @@
     </p>
 </div>
 </section> 
+</div>
 
+<div class="hidden">
 <section class="form-contato" id="form-contato">
     <div class="interface">
         <h2 class="titulo">ENTRE EM <span>CONTATO.</span></h2>
@@ -85,11 +88,11 @@
             <input type="email" placeholder="Seu e-mail:" required>
             <input type="number" placeholder="Seu celular:">
             <input type="text"  placeholder="Sua mensagem:" required></textarea>
-            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" id="enviar-btn"></div>
         </form>
     </div>
 </section>
-
+</div>
 
     <div class="popup">
     <a href="https://api.whatsapp.com/send?phone=+557798344770&text=Oi+%2C++queria+saber+mais+sobre+a+empresa+%2ATechBuild+Informatica%2A+%3F+%F0%9F%98%80" target="_blank" class="whatsappLink" rel="noreferrer">
